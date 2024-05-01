@@ -4,16 +4,15 @@ import AimTrainerImage from '../components/AimTrainer.png';
 function App() {
   return (
     <>
-      <header>
-        <div className="header-container">
-          <h1>Robert Tutone 🖐️</h1>
-          <div className="social-links">
-            <a href="https://github.com/brandhayze" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/robert-tutone-0021a227b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          </div>
-        </div>
-      </header>
-      
+<header>
+  <div className="header-container">
+    <h1>Robert Tutone 🖐️</h1>
+    <div className="social-links">
+      <a href="https://github.com/brandhayze" className="github-button">GitHub</a>
+      <a href="https://www.linkedin.com/in/robert-tutone-0021a227b/" target="_blank" rel="noopener noreferrer" className="linkedin-button px-4 py-2 rounded">LinkedIn</a>
+    </div>
+  </div>
+</header>
       <main>
         <h1>Projects</h1>
         <section className="project">
