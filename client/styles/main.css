@@ -72,3 +72,8 @@ main {
   text-decoration: none !important;
 }
 
+.cv-button {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
